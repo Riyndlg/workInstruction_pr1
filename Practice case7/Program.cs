@@ -16,6 +16,8 @@ namespace Practice_case7
             Console.Write("Enter value for R: ");
             r = double.Parse(Console.ReadLine());
             area = pi * Math.Pow(r, 2);
+            Console.WriteLine($"Area: {area}");
+            Console.ReadKey();
         }
     }
 }
